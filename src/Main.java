@@ -3,7 +3,6 @@ public class Main{
     public static void main(String[] args){
 
         String option = args[0];
-        System.out.println(option);
         if (option.equals("-c")){
             System.out.print("compressing ");
             String filepath = args[1];
