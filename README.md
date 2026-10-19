@@ -7,7 +7,7 @@ A small word-based file compressor written in Java. Frequent words get short byt
 
 You can find the executable in [release](https://github.com/ElAjbariYoussef/SpaceGlider/releases/latest)
 
-## Performance Testing
+## Performance test
 
 A test on the 1 GB [enwik9](https://mattmahoney.net/dc/textdata.html) dataset reduced the size to 567.0 MB (enwik9.space). The compression is completely lossless.
 
