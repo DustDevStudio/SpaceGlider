@@ -1,10 +1,15 @@
-# space-glider
+# SpaceGlider
+![Version](https://img.shields.io/badge/version-0.1.1-green) ![License](https://img.shields.io/badge/license-MIT-green)
 
 A small word-based file compressor written in Java. Frequent words get short byte codes, rare words get longer ones, and the result is saved as a `.space` file.
 
 ## Download
 
 You can find the executable in [release](https://github.com/ElAjbariYoussef/SpaceGlider/releases/latest)
+
+## Performance Testing
+
+A test on the 1 GB [enwik9](https://mattmahoney.net/dc/textdata.html) dataset reduced the size to 567.0 MB (enwik9.space). The compression is completely lossless.
 
 ## Usage
 
